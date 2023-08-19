@@ -202,7 +202,7 @@ document.body.style.cssText = "overflow-x: clip;margin:0";
 //let extintion div
 
 let alterE = document.createElement("div");
-alterE.style.cssText = "width: 1000px;height: 106px;;display:none";
+alterE.style.cssText = "width: 100%;height: 106px;;display:none";
 main.appendChild(alterE);
 //
 //footer style
@@ -271,13 +271,13 @@ button.addEventListener("click", () => {
       //
       //best score functions
       scoreing();
-      main.style.cssText =
-        "background-image: linear-gradient(rgb(38, 0, 110) 75%, rgb(209, 107, 165) 85%, rgb(199, 119, 185) 90%, #3aff00);";
+      main.style.backgroundImage =
+        " linear-gradient(rgb(38, 0, 110) 75%, rgb(209, 107, 165) 85%, rgb(199, 119, 185) 90%, #3aff00);";
     }, 2500);
 
     setTimeout(() => {
       aftertime();
-    }, 5500);
+    }, 4500);
   };
 
   let loseFunction = () => {
@@ -290,12 +290,12 @@ button.addEventListener("click", () => {
       h1.style.fontSize = "25px";
       //
       scoreing();
-      main.style.cssText =
-        "background-image: linear-gradient(rgb(38, 0, 110) 75%, rgb(209, 107, 165) 85%, rgb(199, 119, 185) 90%, red);";
+      main.style.backgroundImage =
+        " linear-gradient(rgb(38, 0, 110) 75%, rgb(209, 107, 165) 85%, rgb(199, 119, 185) 90%, red;";
     }, 2500);
     setTimeout(() => {
       aftertime();
-    }, 5500);
+    }, 4500);
   };
 
   let TE = () => {
@@ -315,7 +315,7 @@ button.addEventListener("click", () => {
       buttondiv.style.display = "flex";
       alterE.style.display = "none";
       h1.style.fontSize = "40px";
-    }, 5500);
+    }, 4500);
   };
   //computer chosed img
   computerImgArray[num].style.display = "none";
